@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karunya Datta Child Care Clinic</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #5a43c2;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    nav {
+      background: #3d2b91;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #6a5acd, #836fff);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .services {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .services h2 {
+      text-align: center;
+      color: #5a43c2;
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #5a43c2;
+      margin-bottom: 10px;
+    }
+
+    .timing {
+      background: #fff4ea;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .timing h2 {
+      color: #5a43c2;
+      margin-bottom: 15px;
+    }
+
+    .contact {
+      padding: 50px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .contact h2 {
+      color: #5a43c2;
+      margin-bottom: 20px;
+    }
+
+    .contact a {
+      color: #5a43c2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #3d2b91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .website-link {
+      background: #ffe66d;
+      color: #222;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .hero h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Karunya Datta Child Care</h1>
+    <p>Caring for Children with Compassion & Excellence</p>
+    <div class="website-link">
+      🌐 Visit Us: www.karunyadattachildcare.com
+    </div>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#timing">Clinic Hours</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Trusted Pediatric & Child Care Services</h2>
+    <p>
+      Karunya Datta Child Care Clinic provides complete pediatric care,
+      newborn checkups, immunization support, growth monitoring,
+      nutrition guidance, and adolescent health services.
+    </p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+      <div class="card">
+        <h3>Newborn Care & Checkup</h3>
+        <p>Comprehensive newborn health assessments and regular monitoring.</p>
+      </div>
+
+      <div class="card">
+        <h3>Lactation Counselling</h3>
+        <p>Expert guidance and support for breastfeeding mothers.</p>
+      </div>
+
+      <div class="card">
+        <h3>Outpatient Child Care</h3>
+        <p>Diagnosis and treatment for common childhood illnesses.</p>
+      </div>
+
+      <div class="card">
+        <h3>Nutrition & Diet Advice</h3>
+        <p>Healthy nutrition plans for infants, children, and adolescents.</p>
+      </div>
+
+      <div class="card">
+        <h3>Growth Monitoring</h3>
+        <p>Track developmental milestones and healthy growth patterns.</p>
+      </div>
+
+      <div class="card">
+        <h3>Development Screening</h3>
+        <p>Early detection and support for developmental concerns.</p>
+      </div>
+
+      <div class="card">
+        <h3>Immunization</h3>
+        <p>Vaccination schedules and immunization support for children.</p>
+      </div>
+
+      <div class="card">
+        <h3>Adolescent Health Care</h3>
+        <p>Health consultations and wellness guidance for teenagers.</p>
+      </div>
+
+      <div class="card">
+        <h3>Minor Procedures</h3>
+        <p>Safe and professional pediatric minor medical procedures.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="timing" id="timing">
+    <h2>Clinic Hours</h2>
+    <p><strong>Monday – Saturday</strong></p>
+    <p>4:30 PM – 8:00 PM</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Karunya Datta Child Care Clinic</p>
+    <p>📞 +91-XXXXXXXXXX</p>
+    <p>📧 contact@karunyadattachildcare.com</p>
+    <p>
+      🌐 Website:
+      <a href="https://www.karunyadattachildcare.com" target="_blank">
+        www.karunyadattachildcare.com
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Karunya Datta Child Care Clinic. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
